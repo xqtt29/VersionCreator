@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension
+         point="org.eclipse.ui.popupMenus">
+         <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="creator.popupMenuContribution">
+         <menu
+               label="VersionCreator"
+               id="CreatorMenu">
+            <separator
+                  name="creatorGroup">
+            </separator>
+         </menu>
+         <action
+               label="CreateVersion"
+               class="versioncreator.popup.actions.CreateVersionAction"
+               menubarPath="CreatorMenu/creatorGroup"
+               enablesFor="*"
+               id="versionCreatorMenu">
+         </action>
+      </objectContribution>
+   </extension>
+   
+
+</plugin>
