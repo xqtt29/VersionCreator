@@ -40,7 +40,7 @@ public class VersionCreatorDialog extends Dialog{
 	private Text text;
 	//待打版本的项目名称
 	private String projectName;
-	//待保存版本压缩包的目标路径
+	//待保存版本压缩包的目标路径。
 	private Text targetText;
 	//窗口shell
 	private Shell shell;
