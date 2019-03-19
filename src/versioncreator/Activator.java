@@ -46,6 +46,7 @@ public class Activator extends AbstractUIPlugin {
 	 */
 	public static Activator getDefault() {
 		System.out.println("你好");
+		System.out.println("HelloWorld");
 		return plugin;
 	}
 
