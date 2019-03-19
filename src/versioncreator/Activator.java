@@ -12,13 +12,13 @@ public class Activator extends AbstractUIPlugin {
 	public static final String PLUGIN_ID = "VersionCreator"; //$NON-NLS-1$
 	// The shared instance
 	private static Activator plugin;
-	
+	private String b;
 	/**
 	 * The constructor
 	 */
 	public Activator() {
 	}
-	
+	private String c;
 	/*
 	 * (non-Javadoc)
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)
@@ -27,7 +27,7 @@ public class Activator extends AbstractUIPlugin {
 		super.start(context);
 		plugin = this;
 	}
-	
+	private String d;
 	/*
 	 * (non-Javadoc)
 	 * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)
@@ -36,17 +36,16 @@ public class Activator extends AbstractUIPlugin {
 		plugin = null;
 		super.stop(context);
 	}
-	
+	private String a;
 	/**
 	 * Returns the shared instance
 	 *
 	 * @return the shared instance
 	 */
 	public static Activator getDefault() {
-		System.out.println("你好");
+		System.out.println("你1好");
 		return plugin;
 	}
-	
 	/**
 	 * Returns an image descriptor for the image file at the given
 	 * plug-in relative path
