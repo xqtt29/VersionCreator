@@ -46,7 +46,7 @@ public class Activator extends AbstractUIPlugin {
 	 * @return the shared instance
 	 */
 	public static Activator getDefault() {
-		System.out.println("你1好");
+		System.out.println("你好");
 		return plugin;
 	}
 	
