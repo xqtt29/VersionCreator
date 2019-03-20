@@ -62,7 +62,7 @@ public class Activator extends AbstractUIPlugin {
 	}
 	
 	public void func() {
-		System.out.println(1);
+		System.out.println(12);
 	}
 	
 	public void func1111() {
