@@ -10,6 +10,7 @@ public class Activator extends AbstractUIPlugin {
 	public static final String PLUGIN_ID = "VersionCreator"; //$NON-NLS-1$
 	// The shared instance
 	private static Activator plugin;
+	private String a;
 	/**
 	 * 
 	 * The constructor
@@ -38,7 +39,6 @@ public class Activator extends AbstractUIPlugin {
 	 * @return the shared instance
 	 */
 	public static Activator getDefault() {
-		System.out.println("你1好");
 		return plugin;
 	}
 	/**
