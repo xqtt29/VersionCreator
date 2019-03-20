@@ -61,9 +61,7 @@ public class Activator extends AbstractUIPlugin {
 		return imageDescriptorFromPlugin(PLUGIN_ID, path);
 	}
 	
-	public void func() {
-	}
 	public void func1111() {
-		System.out.println(123);
+		System.out.println(22);
 	}
 }
